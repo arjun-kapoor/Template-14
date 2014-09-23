@@ -251,7 +251,7 @@ ul.ftMenu{
 			}
 /*end FOOTER
 *********************/
-
+.count_num{ display:inline;}
 /*-----responsive start----*/
 @media (min-width: 751px) and (max-width: 900px) {
 	.wrapperInner{ padding:0px 5px;}
@@ -280,7 +280,13 @@ ul.ftMenu{
 	.pure-g .cource_part{ font-size:16px;}
  ul.snIcon li{font-size:16px;}
  .pg_cnt h1{ margin-bottom:.65em;}
-}
+ .count_num{ display:block;}
+ .pure-g .cource_part{ margin-top:0px;}
+ ul.snIcon li:first-child{ display:block; margin-bottom:7px;}
+ .pure-g .cource_part{ float:left; text-align:left;}
+ ul.snIcon li:first-child{ font-size:14px;}
+ .pure-g .cource_part{ font-size:14px;}
+} 
 @media screen and (max-width:479px) {
 	.wrapperInner{ padding:0px 5px;}
 .pure-g .logo_area{ width:100%; float:none; text-align:center; margin:10px 0px;}
@@ -300,7 +306,7 @@ ul.ftMenu{
 .footer p{ font-size:11px;}
 ul.ftMenu li a{ font-size:11px;}
 ul.ftMenu li{ padding:0 8px 0 3px;}
- 
+ ul.snIcon li:first-child{ text-align:center;}
 }
 
 
